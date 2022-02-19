@@ -1,0 +1,33 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container {
+    width: 1000px;
+    max-width: 80%;
+}
+
+.header {
+    text-align: center;
+}
+
+
+.student-reg {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.student-reg label {
+    font-size: 13px;
+}
